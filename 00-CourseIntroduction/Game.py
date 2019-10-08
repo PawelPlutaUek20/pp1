@@ -1,8 +1,8 @@
 import random
 
 game = [[" ", " ", " "],
-	[" ", " ", " "],
-	[" ", " ", " "]]
+    [" ", " ", " "],
+    [" ", " ", " "]]
 turn = 0
 print("")
 print("  " + game[0][0] +" | " + game[0][1] +" | " + game[0][2] +"  ")
@@ -93,11 +93,11 @@ while 1:
             if game[column-1][row-1] != "O" and game[column-1][row-1] != "X":
                 game[column-1][row-1] = "X"
                 print("")
-                print("  " + game[0][0] +" | " + game[0][1] +" | " + game[0][2] +"  ")
+                print("  " + game[0][0] +" | " + game[1][0] +" | " + game[2][0] +"  ")
                 print(" ---+---+---")
-                print("  " + game[1][0] +" | " + game[1][1] +" | " + game[1][2] +"  ")
+                print("  " + game[0][1] +" | " + game[1][1] +" | " + game[2][1] +"  ")
                 print(" ---+---+---")
-                print("  " + game[2][0] +" | " + game[2][1] +" | " + game[2][2] +"  ")
+                print("  " + game[0][2] +" | " + game[1][2] +" | " + game[2][2] +"  ")
                 print(" ")
                 turn += 1
                 break
@@ -176,13 +176,11 @@ while 1:
         if game[column_1][row_1] != "O" and game[column_1][row_1] != "X":            
             game[column_1][row_1] = "O"
             print("")
-            print("  " + game[0][0] +" | " + game[0][1] +" | " + game[0][2] +"  ")
+            print("  " + game[0][0] +" | " + game[1][0] +" | " + game[2][0] +"  ")
             print(" ---+---+---")
-            print("  " + game[1][0] +" | " + game[1][1] +" | " + game[1][2] +"  ")
+            print("  " + game[0][1] +" | " + game[1][1] +" | " + game[2][1] +"  ")
             print(" ---+---+---")
-            print("  " + game[2][0] +" | " + game[2][1] +" | " + game[2][2] +"  ")
+            print("  " + game[0][2] +" | " + game[1][2] +" | " + game[2][2] +"  ")
             print(" ")
             turn += 1
             break
-        else:
-            print("That spot is taken")
