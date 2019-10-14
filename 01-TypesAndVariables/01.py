@@ -193,8 +193,7 @@
 
 #30
 # x = [12,6,4,9,3]
-# i=0
-# while i<5:
+# for i in range(5):
 #     print(str(x[i])+": "+str("*"*x[i]))
-#     i+=1
+
 
