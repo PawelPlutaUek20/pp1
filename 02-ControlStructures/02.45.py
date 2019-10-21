@@ -14,5 +14,6 @@ while len(tab)<n:
     else:
         x+=1
         y=0
-print("Lista pierwszych " +str(n)+ " liczb pierwszych: ", end='')
-print( *tab, sep=", ", end="")
+if n>0:
+    print("Lista pierwszych " +str(n)+ " liczb pierwszych: ", end='')
+    print( *tab, sep=", ", end="")
