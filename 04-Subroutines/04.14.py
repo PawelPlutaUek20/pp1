@@ -4,15 +4,11 @@ def wystepuje(liczba,tablica):
     print('Liczba:',liczba)
     print('Tablica:',end=' ')
     print(*tablica, sep=' ')
-    while n<len(tablica)-1:
-        for i in tablica:
-            if i == tablica[n]:
-                print('jest')
-                n+=1
-                break
-            elif i != tablica[n]:
-                n+=1
+    for i in tablica:
+        if i==liczba:
+            print('Rezultat: Podana liczba występuje w tablicy')
+            break
     else:
-        print('nie ma')
-liczba=int(input('Podaj liczbe: '))
+        print('Rezultat: Podana liczba nie występuje w tablicy')
+liczba=23
 wystepuje(liczba,tablica)
