@@ -7,3 +7,4 @@ stdev = statistics.stdev(XYZ)
 print(f'Średnia artymetyczna = {aryt}\n')
 print(f'Mediana = {medi}\n')
 print(f'Odchylenie standardowe = {stdev}')
+
