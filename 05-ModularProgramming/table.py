@@ -1,0 +1,2 @@
+import shapes
+shapes.drawSquare()
