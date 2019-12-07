@@ -63,7 +63,7 @@ def drawBlackSquare(m):
         turtle.right(90)
     turtle.end_fill()
     
-def drawChessboard(m):
+def drawChessboard(n):
     turtle.penup()
     turtle.setposition(-395,404)
     turtle.pendown()
@@ -93,3 +93,4 @@ def drawChessboard(m):
         else:
             turtle.forward(n)
     turtle.end_fill()
+drawChessboard(100)

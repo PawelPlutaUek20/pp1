@@ -1,17 +1,18 @@
 from dane import pobierzDane
 import statistics
+dane = pobierzDane()
 def srednia():
-    srednia=statistics.mean(pobierzDane())
+    srednia=statistics.mean(dane)
     return srednia
 
 def mediana():
-    mediana=statistics.median(pobierzDane())
+    mediana=statistics.median(dane)
     return mediana
 
 def minimum():
-    minimum=min(pobierzDane())
+    minimum=min(dane)
     return minimum
 
 def maksimum():
-    maksimum=max(pobierzDane())
+    maksimum=max(dane)
     return maksimum
