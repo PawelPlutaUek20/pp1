@@ -3,5 +3,4 @@ class Message():
         self.message = ''
     def set_message(self,message):
         self.message = message.capitalize()
-        self.message += " BYE"
-x = Message()
+        self.message = self.message + " BYE."

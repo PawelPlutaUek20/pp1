@@ -1,6 +1,11 @@
+from message import Message
 class SMS():
-    def __init__(self,sender_phone_nr,receiver_phone_nr):
-        self.sender_phone_nr = sender_phone_nr
-        self.receiver_phone_nr = receiver_phone_nr
-    def send(self):
-        super().Message.__init__(message)
+    def __init__(self,senders_phone_nr,receivers_phone_nr):
+        self.senders_phone_nr = senders_phone_nr
+        self.receivers_phone_nr = receivers_phone_nr
+    def send(self, message):
+        Message.set_message(self,message)
+        print(f'''Wysyłanie SMSa...
+Od: {self.senders_phone_nr}
+Do: {self.receivers_phone_nr}
+Treść: {self.message}''')
