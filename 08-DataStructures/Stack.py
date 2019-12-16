@@ -13,3 +13,10 @@ class Stack:
 
     def is_empty(self):
         return len(self.stack)==0
+
+import random
+s = Stack()
+for i in range(5):
+    s.push(random.randint(-9,9))
+for j in range(3):
+    print(s.pop())

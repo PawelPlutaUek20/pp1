@@ -52,7 +52,7 @@ class Rental():
                     car.rent()
                     break
             
-    def return_by_registration(self, registration, km):
+    def return_by_registration(self, registration, km=0):
         for car in self.cars:
             if car.registration_number == registration:
                 if car.is_rented == True:

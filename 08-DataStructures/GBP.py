@@ -25,3 +25,9 @@ GBP = {
         }
     ]
 }
+print(f"%-13s %s" % ("Data", "Kurs"))
+print("="*21)
+for i in range(len(GBP['rates'])):
+    print(f"%-13s %s" % (GBP['rates'][i]['effectiveDate'], GBP['rates'][i]['mid']))
+    
+
