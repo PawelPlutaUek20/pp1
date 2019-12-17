@@ -1,0 +1,20 @@
+{
+    "All-in-One": true,
+    "Processor Type": "Intel Core i7",
+    "Processor Speed": 3.0,
+    "RAM": 8,
+    "SSD": 1,
+    "Connections": [
+        "3.5 mm headphone jack",
+        "SDXC card slot",
+        "Four USB 3 ports",
+        "Two Thunderbolt 3 (USB-C) ports",
+        "10/100/1000BASE-T Gigabit Ethernet"
+    ],
+    "Size and Weight": {
+        "Height": 45,
+        "Width": 52.8,
+        "Stand depth": 17.5,
+        "Weight": 5.6
+    }
+}
