@@ -14,8 +14,8 @@ def sum_even(from_m,to_n):
     return sum
 
 def main():
-    m = "jeden"
-    n = "osiem"
+    m = 2.123123
+    n = 6.3214
     print(f"Suma liczb naturalnych parzystych z przedziału <{m},{n}> wynosi {sum_even(m,n)}")
 
 if __name__ == "__main__":
